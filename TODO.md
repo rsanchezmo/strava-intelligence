@@ -16,4 +16,4 @@ Notes from reviewing the deployed app. Ordered easiest/fastest → most complex.
 
 7. ✅ **Workout Edit form is too complex / needs a rethink.** Each segment exposes Distance, Duration, Fastest pace, Slowest pace, HR Zone, Reps, Recovery time, Recovery dist — many of these are rarely used or redundant. Needs a design pass before coding: trim fields to the common case and align with how workouts are actually used elsewhere (Calendar sessions, matched against activities).
 
-8. **No mobile support.** On mobile (tested on Android via `strava.rsm-dev.org`), the desktop dock sidebar stays pinned on the left and eats horizontal space, squeezing the main content. Needs a responsive layout — e.g. collapse the dock into a bottom nav or hamburger on small viewports. Touches `AppShell` + every page.
+8. ✅ **No mobile support.** On mobile (tested on Android via `strava.rsm-dev.org`), the desktop dock sidebar stays pinned on the left and eats horizontal space, squeezing the main content. Needs a responsive layout — e.g. collapse the dock into a bottom nav or hamburger on small viewports. Touches `AppShell` + every page.
